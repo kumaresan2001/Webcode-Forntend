@@ -51,16 +51,16 @@ function Login() {
   return (
     <div className="container">
       <div className="card-login o-hidden border-0 shadow-lg my-5">
-        <div className="card-body p-0">
+        <div className="card-body p-3">
           <div className="row">
-            <div className="col-lg-5 d-none d-lg-block">
+            <div className="col-lg-7 d-none d-lg-block">
               <img
                 className="bg-login-image"
-                src="./image/equip.jpg"
+                src="https://media.istockphoto.com/id/1426988809/photo/security-password-login-online-concept-hands-typing-and-entering-username-and-password-of.jpg?b=1&s=170667a&w=0&k=20&c=AJD5Wv30lmyILccJyMpQGhkmh0VhZ5WNDtk53MO1OVM="
                 alt="login"
               />
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-5">
               <div className="p-5">
                 <div className="text-center">
                   <div> {isLoading ? <Loading /> : ""}</div>

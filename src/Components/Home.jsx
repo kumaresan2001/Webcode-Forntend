@@ -21,13 +21,17 @@ function Home() {
         </h6>
       </div>
       <div className="col-lg-12 text-center mt-5">
-        <img className="equip" src="../image/equipment.jpg" alt="equip" />
+        <img
+          className="equip"
+          src="https://www.rentle.io/hubfs/cover-rentalproducts.png"
+          alt="equip"
+        />
       </div>
       <div
         className="col-lg-12"
         style={{ marginTop: "50px", marginBottom: "50px" }}
       >
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </div>
   );
