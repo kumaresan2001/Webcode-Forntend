@@ -17,7 +17,7 @@ function Home() {
         <h6 className="text-center">
           Rental Products we provide
           <br />
-          Car,Van,Auto,Cameras,Speaker,Bikes,Iphone,....
+          Car,Bus,Auto,Cameras,Bikes,Laptop,....
         </h6>
       </div>
       <div className="col-lg-12 text-center mt-5">

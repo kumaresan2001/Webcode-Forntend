@@ -1,21 +1,118 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #383838 ;
+  color: antiquewhite;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.boxintro{
+  margin-top: 0px;
+  margin-bottom:0px;
 }
 
-.error-box{
-  border: 1px solid red !important;
+
+.containernav{
+  padding:10px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background: rgb(234, 172, 181);
+
+  
+  
 }
 
-.success-box{
-  border: 1px solid green !important;
+nav li{
+  display:inline-block;
+  list-style: none;
+  margin:10px 35px ;
+  
+}
+nav li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  position: relative;
+}
+
+nav li a:hover{
+  color:#4c16c9 ;
+}
+#navbut {
+background-color: #616161;
+color: #080808;
+}
+#link{
+color: #83f0f2;
+}
+
+
+
+
+nav li a::after{
+  content:"";
+  width: 0;
+  height: 3px;
+  background:#171a1c ;
+  position: absolute;
+  left:0;
+  bottom:-6px;
+  transition: 0.5s;
+}
+
+nav li a:hover::after{
+  width:100%;
+
+}
+@media only screen and (max-device-width: 480px) {
+.equip{
+  width: 100%;
+  height: 100%;
+}
+.card-img-top{
+width: 70%;
+height: 70%;
+}
+.card-prod{
+width: 100%;
+height: 100%;
+}
+}
+@media only screen and (max-device-width: 768px) {
+.equip{
+  width: 100%;
+  height: 100%;
+}
+.card-img-top{
+width: 100%;
+height: 100%;
+}
+}
+@media only screen and (min-width: 960px) {
+.equip{
+  width: 100%;
+  height: 100%;
+}
+#contact{
+width: 100%;
+}
+.card-img-top{
+width: 100%;
+height: 100%;
+}
+.card-prod{
+width: 50%;
+height: 50%;
+}
+}
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1024px) {
+.bg-login-image{
+width: 100%;
+height: 100%;
+}
 }

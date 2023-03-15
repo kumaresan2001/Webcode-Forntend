@@ -93,8 +93,8 @@ function Login() {
                     ) : null}
                   </div>
                   <br />
-                  <div className="form-group row">
-                    <div className="col-sm-6 mb-3 mb-sm-0">
+                  <div className="form-group ">
+                    <div className="col-lg-5">
                       <input
                         name="password"
                         onChange={formik.handleChange}
