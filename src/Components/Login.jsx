@@ -125,6 +125,9 @@ function Login() {
                     Login
                   </button>
                 </form>
+
+                <h1 className="h4 text-gray-900 mb-4">Email:kumar@gmail.com</h1>
+                <h1 className="h4 text-gray-900 mb-4">password:kumar@123</h1>
               </div>
             </div>
           </div>
